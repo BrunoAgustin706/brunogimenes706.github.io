@@ -1,0 +1,100 @@
+
+html{
+  font-size: 14px; 
+  }
+/** Media queries para que el texto sea mas responsivo*/
+  @media screen and (max-width:800px){
+    html { 
+          font-size: 12px;}}
+ @media screen and (max-width:650px){
+            html { 
+                  font-size: 10px;}}
+
+body{
+  background-image:url(https://www.10wallpaper.com/wallpaper/2560x1600/1403/blue_unclear_image-HD_Widescreen_Wallpapers_2560x1600.jpg);
+  min-height: 100vh;
+  margin: 0 auto;
+}
+.ancho{
+ padding: 50px ;
+}
+.color {
+  background-color:darkblue;
+  opacity: 0.9;}
+  
+  #img_{
+    border-radius: 50%;
+  }
+
+  h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Playfair Display', serif; 
+   
+  }  
+  .parrafos{
+    color: rgb(218, 215, 215);
+    
+   }
+  .padding_columnas{
+   padding: 10px;
+   
+  }
+
+  
+.ancho_arriba_abajo{
+padding:30px 0px ;
+  }
+
+  .color_text{
+    color: darkblue;
+    opacity: 0.9
+  }
+
+  .accordion-item1 {
+    color: var(--bs-accordion-color);
+    background-color:transparent;  
+}
+
+.center{
+  text-align: center;
+}
+
+.accordion1 {
+  --bs-accordion-color: #212529;
+  --bs-accordion-bg: transparent;
+  --bs-accordion-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,border-radius 0.15s ease;
+  --bs-accordion-border-color: var(--bs-border-color);
+  --bs-accordion-border-width: 0;
+  --bs-accordion-border-radius: 0.375rem;
+  --bs-accordion-inner-border-radius: calc(0.375rem - 1px);
+  --bs-accordion-btn-padding-x: 1.25rem;
+  --bs-accordion-btn-padding-y: 1rem;
+  --bs-accordion-btn-color: #212529;
+  --bs-accordion-btn-bg: var(--bs-accordion-bg);
+  --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+  --bs-accordion-btn-icon-width: 1.25rem;
+  --bs-accordion-btn-icon-transform: rotate(-180deg);
+  --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
+  --bs-accordion-btn-active-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+  --bs-accordion-btn-focus-border-color: #86b7fe;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25remrgba(13, 110, 253, 0.25);
+  --bs-accordion-body-padding-x: 1.25rem;
+  --bs-accordion-body-padding-y: 1rem;
+  --bs-accordion-active-color: #0c63e4;
+  --bs-accordion-active-bg: transparent;
+}
+
+.zoom{
+  transition:0.5s;
+  padding: 10px;
+}
+.zoom:hover{
+  transform: scale(1.1);
+}
+
+.zoom2{
+  transition:0.5s;
+}
+.zoom2:hover{
+  transform: scale(1.5);
+  padding-bottom: 10px;
+}

@@ -1,0 +1,121 @@
+
+html{
+  font-size: 15px; 
+  }
+/** Media queries para que el texto sea mas responsivo*/
+  @media screen and (max-width:800px){
+    html { 
+          font-size: 12px;}}
+ @media screen and (max-width:650px){
+            html { 
+                  font-size: 10px;}}     
+                  
+                  
+                  
+/** Body*/
+body{
+  
+  min-height: 100vh;
+  margin: 0 auto;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/007/852/237/non_2x/gentle-ink-wallpaper-pink-natural-luxury-marble-texture-abstract-hand-drawn-watercolor-background-pastel-color-stains-on-canvas-vector.jpg);
+  background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  font-family: 'Playfair Display', serif; 
+  color: black;
+}
+
+.carousel-caption1 {
+  position: absolute;
+  top: 15%;
+  right: 30%;
+  bottom:1.25rem ;
+  left: 5%;
+  overflow-y: auto;
+  padding-bottom:1.25rem ;
+  color:black;
+  text-align:left;
+}
+/** Solo le modifico el padding-left */
+.navbar-brand {
+  padding-top: var(--bs-navbar-brand-padding-y);
+  padding-left: 30px;
+  padding-bottom: var(--bs-navbar-brand-padding-y);
+  margin-right: var(--bs-navbar-brand-margin-end);
+  font-size: var(--bs-navbar-brand-font-size);
+  color: var(--bs-navbar-brand-color);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.Logo{
+  width: 35px;
+  
+}
+
+.img_cv{
+  text-align:initial;
+  width: 500px;
+  right: 300px;
+  border-radius: 20%;
+}
+/** id para el contacto de la barra de navegacion */
+#contacto{
+  padding-right: 30px;
+}
+.Iconos{
+  width: 25px;
+ border-radius: 50%;
+  margin: 10px 3px;
+ text-align: center;
+  }
+
+/** Id para aplicar cambios a las caracteristicas de la letra */
+
+#parrafo_nuestro p{
+  text-rendering:optimizeLegibility;
+  font-size: 1rem;
+} 
+/** Footer*/
+.Footer_style{
+  background-color:rgb(33,37,41);
+  height: 100%;
+  padding: 15px 0 5px 0;
+  text-align: center;
+  
+}
+footer p{
+  color: white;
+  padding-top: 10px;
+  font-size: 12px;
+  }
+/** Clase para dejar un padding arriba */
+  .espacio_arriba_abajo{
+    padding-top: 50px;
+    
+  }
+
+#espacio_abajo{
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+#img_adaptada{
+  width:500px;
+  right:auto;
+  object-fit:cover;
+  border-radius: 10%;
+}
+
+.zoom{
+  transition:0.5s;
+  padding: 20px 0px;
+}
+
+.zoom:hover{
+  transform: scale(1.1);
+}
+
+.padding_img{
+  padding: 15px 0 5px 0;
+
+}
